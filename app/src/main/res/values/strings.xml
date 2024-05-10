@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="search_hint">Masukkan username</string>
+    <string name="user_not_found">Pengguna tidak ditemukan</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="favorite_button">Favorite Button</string>
+    <string name="followers_count">%d Followers</string>
+    <string name="following_count">%d Following</string>
+</resources>

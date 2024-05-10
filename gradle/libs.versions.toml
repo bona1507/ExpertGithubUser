@@ -1,0 +1,59 @@
+[versions]
+agp = "8.5.0-alpha08"
+coilCompose = "2.6.0"
+converterGson = "2.9.0"
+coreKtxVersion = "1.13.1"
+datastorePreferences = "1.1.1"
+koinAndroid = "3.5.6"
+kotlin = "1.9.23"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+leakcanaryAndroid = "2.12"
+lifecycleLivedataKtxVersion = "2.7.0"
+loggingInterceptor = "4.11.0"
+materialVersion = "1.12.0"
+navigationFragmentKtx = "2.7.7"
+netAndroidDatabaseSqlcipher = "4.4.0"
+roomKtxVersion = "2.6.1"
+sqliteKtx = "2.4.0"
+viewpager2 = "1.0.0"
+cardview = "1.0.0"
+
+[libraries]
+androidx-core-ktx-v1131 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtxVersion" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragmentKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomKtxVersion" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomKtxVersion" }
+androidx-sqlite-ktx = { module = "androidx.sqlite:sqlite-ktx", version.ref = "sqliteKtx" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinAndroid" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanaryAndroid" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+material-v1120 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+net-android-database-sqlcipher = { module = "net.zetetic:android-database-sqlcipher", version.ref = "netAndroidDatabaseSqlcipher" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtxVersion" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+android-dynamic-feature = { id = "com.android.dynamic-feature", version.ref = "agp" }
+
