@@ -22,7 +22,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -59,4 +59,8 @@ dependencies {
 
     // Data Store
     implementation(libs.androidx.datastore.preferences)
+
+    //Encryption
+    implementation(libs.net.android.database.sqlcipher)
+    implementation(libs.androidx.sqlite.ktx)
 }
